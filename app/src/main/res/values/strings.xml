@@ -253,11 +253,13 @@
     </plurals>
     <string name="subscribers_count_not_available">Subscribers count not available</string>
 
+
     <string name="no_views">No views</string>
     <plurals name="views">
         <item quantity="one">%s view</item>
         <item quantity="other">%s views</item>
     </plurals>
+    <string name="recommeded">Recommended for you</string>
 
     <string name="no_videos">No videos</string>
     <plurals name="videos">

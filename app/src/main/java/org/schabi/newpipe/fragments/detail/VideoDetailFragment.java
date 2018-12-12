@@ -1151,6 +1151,9 @@ public class VideoDetailFragment
         if (info.getViewCount() >= 0) {
             videoCountView.setText(Localization.localizeViewCount(activity, info.getViewCount()));
             videoCountView.setVisibility(View.VISIBLE);
+        } else if (info.getViewCount() == -2) { //Video is recommended
+            videoCountView.setText(R.string.recommeded);
+            videoCountView.setVisibility(View.VISIBLE);
         } else {
             videoCountView.setVisibility(View.GONE);
         }
